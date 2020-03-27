@@ -1,8 +1,8 @@
 all:
 	(cd timerLib; make install)
-	(cd zzz; make)
+	(cd blinkbuzz; make)
 
 clean:
 	(cd timerLib; make clean)
-	(cd zzz; make clean)
+	(cd blinkbuzz; make clean)
 	rm -rf lib h *~
